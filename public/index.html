@@ -1,0 +1,113 @@
+<!-- Special thanks to Arturo Ramirez for helping me complete this code -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Blog Post HTML </title>
+  </head>
+  <body>
+    <h1> Blog Post</h1>
+
+
+        <h3>
+          Get Blogs from database
+        </h3>
+      <span>
+        <button class="getButton" type="submit"> Display all blogs </button>
+      </span>
+    <b></b>
+    <div class="getDiv">
+    </div>
+
+    <b></b>
+
+      <h3>
+          Get by author
+      </h3>
+      <span>
+        Name of the author
+        <input type="text" class="authorName">
+        <button class="authorButton" type="submit"> Display all blogs by author </button>
+      </span>
+    <b></b>
+    <div class="autorDiv">
+    </div>
+
+    <b></b>
+
+      <h3>
+          Post Blog
+      </h3>
+      <div>
+        Title
+        <input type="text" class="postTitle">
+      </div>
+      <div>
+        Author
+        <input type="text" class="postAuthor">
+      </div>
+      <div>
+        Publish Date
+        <input type="text" class="postDate">
+      </div>
+
+      <div>
+      <textarea rows="5" cols="80" class="postContent"></textarea>
+      </div>
+
+      <button class="postButton" type="submit"> Post the blog </button>
+    <b></b>
+    <div class="postDiv">
+    </div>
+
+    <b></b>
+
+      <h3>
+          Modify Form
+      </h3>
+      <div>
+        ID
+        <input type="text" class="putId">
+      </div>
+      <div>
+        Title
+        <input type="text" class="putTitle">
+      </div>
+      <div>
+        Author
+        <input type="text" class="putAuthor">
+      </div>
+      <div>
+        Publish Date
+        <input type="text" class="putDate">
+      </div>
+
+      <div>
+      <textarea rows="5" cols="80" class="putContent"></textarea>
+      </div>
+
+      <button class="putButton" type="submit"> Modify the blog</button>
+    <b></b>
+    <div class="putDiv">
+    </div>
+
+    <b></b>
+
+      <h3>
+          Delete Form
+      </h3>
+      <div>
+        ID
+        <input type="text" class="delId">
+      </div>
+      <button class="delButton" type="submit"> Delete the blog </button>
+
+
+    <script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+    <script src="./index.js"> </script>
+  </body>
+</html>
